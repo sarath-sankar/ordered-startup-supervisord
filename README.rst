@@ -33,7 +33,7 @@ Configuration
 Configuration requires several things.  First you need to configure this software as a event listener::
 
     [eventlistener:inorder]
-    command=/path/to/ordered-startup-listener
+    command=/usr/local/bin/ordered-startup-listener
     autostart=true
     events=PROCESS_STATE
 
